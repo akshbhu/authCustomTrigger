@@ -1,0 +1,63 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "authtriggertestb3a9da62_identitypool_b3a9da62",
+    "allowUnauthenticatedIdentities": false,
+    "resourceNameTruncated": "authtrb3a9da62",
+    "userPoolName": "authtriggertestb3a9da62_userpool_b3a9da62",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+      "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+      "email"
+    ],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+      "email"
+    ],
+    "userpoolClientReadAttributes": [
+      "email"
+    ],
+    "userpoolClientLambdaRole": "authtrb3a9da62_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "b3a9da62",
+    "resourceName": "authtriggertestb3a9da62b3a9da62",
+    "authSelections": "identityPoolAndUserPool",
+    "useDefault": "manual",
+    "thirdPartyAuth": false,
+    "userPoolGroups": false,
+    "adminQueries": false,
+    "triggers": {
+      "PostAuthentication": [
+        "custom"
+      ],
+      "PostConfirmation": [
+        "add-to-group"
+      ],
+      "PreAuthentication": [
+        "custom"
+      ],
+      "PreSignup": [
+        "email-filter-allowlist"
+      ]
+    },
+    "hostedUI": false,
+    "userPoolGroupList": [],
+    "serviceName": "Cognito",
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true
+  }
+}

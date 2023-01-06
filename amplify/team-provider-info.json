@@ -1,0 +1,41 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-authtriggertest-dev-210701-authRole",
+      "UnauthRoleArn": "arn:aws:iam::136981144547:role/amplify-authtriggertest-dev-210701-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::136981144547:role/amplify-authtriggertest-dev-210701-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-authtriggertest-dev-210701-deployment",
+      "UnauthRoleName": "amplify-authtriggertest-dev-210701-unauthRole",
+      "StackName": "amplify-authtriggertest-dev-210701",
+      "StackId": "arn:aws:cloudformation:us-west-2:136981144547:stack/amplify-authtriggertest-dev-210701/114ab4d0-8e06-11ed-8a7a-06c7bb8dac4b",
+      "AmplifyAppId": "d1le4thtwfpmvh",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-authtriggertest-dev-210701-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "authtriggertestb3a9da62b3a9da62": {}
+      },
+      "function": {
+        "authtriggertestb3a9da62b3a9da62PostAuthentication": {
+          "deploymentBucketName": "amplify-authtriggertest-dev-210701-deployment",
+          "s3Key": "amplify-builds/authtriggertestb3a9da62b3a9da62PostAuthentication-762f5a4b4f52394d4d48-build.zip"
+        },
+        "authtriggertestb3a9da62b3a9da62PostConfirmation": {
+          "GROUP": "admin",
+          "deploymentBucketName": "amplify-authtriggertest-dev-210701-deployment",
+          "s3Key": "amplify-builds/authtriggertestb3a9da62b3a9da62PostConfirmation-6a57576f356633727037-build.zip"
+        },
+        "authtriggertestb3a9da62b3a9da62PreAuthentication": {
+          "deploymentBucketName": "amplify-authtriggertest-dev-210701-deployment",
+          "s3Key": "amplify-builds/authtriggertestb3a9da62b3a9da62PreAuthentication-3466387131562f767a31-build.zip"
+        },
+        "authtriggertestb3a9da62b3a9da62PreSignup": {
+          "DOMAINALLOWLIST": "mydomain.com",
+          "deploymentBucketName": "amplify-authtriggertest-dev-210701-deployment",
+          "s3Key": "amplify-builds/authtriggertestb3a9da62b3a9da62PreSignup-51475854394b52766369-build.zip"
+        }
+      }
+    }
+  }
+}
